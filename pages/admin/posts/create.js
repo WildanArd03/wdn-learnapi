@@ -11,7 +11,7 @@ export async function getServerSideProps(ctx) {
     }
 }
 
-export default function create(props) {
+export default function Create(props) {
     const [fields, setFields] = useState({
         title: '',
         content: '',

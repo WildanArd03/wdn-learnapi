@@ -16,7 +16,7 @@ export async function getServerSideProps(ctx) {
     }
 }
 
-export default function edit(props) {
+export default function Edit(props) {
     const { post } = props
 
     const [fields, setFields] = useState({

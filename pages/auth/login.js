@@ -9,7 +9,7 @@ export async function getServerSideProps(ctx) {
     return { props: {} }
 }
 
-export default function login() {
+export default function Login() {
     const [fields, setfields] = useState()
 
     async function loginHandler(e) {

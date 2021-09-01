@@ -13,7 +13,7 @@ export async function getServerSideProps(ctx) {
         }
     }
 }
-export default function index(props) {
+export default function Index(props) {
     const [posts, setPosts] = useState(props.posts)
     async function deleteHandler(id, e) {
         e.preventDefault()
