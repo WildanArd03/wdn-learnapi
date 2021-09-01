@@ -1,10 +1,10 @@
 const knex = require('knex')({
-  client: process.env.DB_CLIENT,
+  client: process.env.NEXT_PUBLIC_DB_CLIENT,
   connection: {
-    host: process.env.DB_HOST,
-    user: process.env.DB_USERNAME,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
+    host: process.env.NEXT_PUBLIC_DB_HOST,
+    user: process.env.NEXT_PUBLIC_DB_USERNAME,
+    password: process.env.NEXT_PUBLIC_DB_PASSWORD,
+    database: process.env.NEXT_PUBLIC_DB_NAME
   }
 });
 
