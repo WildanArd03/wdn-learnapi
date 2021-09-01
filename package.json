@@ -1,0 +1,28 @@
+{
+  "name": "api.learn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint",
+    "knex": "dotenv -e .env.local knex"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv-cli": "^4.0.0",
+    "js-cookie": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.10",
+    "mysql": "^2.18.1",
+    "next": "11.1.0",
+    "next-cookies": "^2.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0"
+  }
+}
