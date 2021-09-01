@@ -4,7 +4,7 @@ import Router from "next/router"
 import Nav from "../../../components/Nav"
 export async function getServerSideProps(ctx) {
     const { token } = await authPage(ctx)
-    const postReq = await fetch('http://localhost:3000/api/posts')
+    const postReq = await fetch(process.env.NEXT_PUBLIC_APP_URL + '/api/posts')
     const posts = await postReq.json()
     return {
         props: {
